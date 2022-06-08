@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="join:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/join_jar</output-path>
+    <root id="archive" name="Distributed-Shared-White-Board.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/join/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Distributed-Shared-White-Board" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mortbay/jetty/jetty-util/6.1.25/jetty-util-6.1.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/json/json/20220320/json-20220320.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
